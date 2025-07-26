@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWEET TOOTHIEZZ-online desserts</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>SWEET TOOTHIEZZ!</h1>
+        <h4>in love with desserts &hearts;</h4>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to SWEET TOOTHIEZZ!</h2>
+            <p>Indulge in our exquisite collection of homemade desserts, crafted with love and the finest ingredients. Whether you're craving a rich chocolate cake, a creamy cheesecake, or delicate macarons, we have something to satisfy every sweet tooth.</p>
+            <p>Explore our menu and bring a touch of sweetness to your day!</p>
+        </section>
+
+        <section id="about">
+            <h2>About SWEET TOOTHIEZZ</h2>
+            <p>Welcome to Sweet Toothiezz, where every treat is baked with passion and the finest ingredients. We believe in bringing joy to your taste buds with our wide array of delightful desserts, from classic cakes to innovative pastries.</p>
+            <p>Our mission is to create memorable sweet experiences for all our customers. Explore our collection and find your next favorite indulgence!</p>
+        </section>
+
+        <section id="services">
+            <h2>OUR DELICIOUS DESSERTS</h2>
+
+            <div class="dessert-item">
+                <h3>COOKIE BREAKIE..</h3>
+                <p>All our Cookies are soft baked by design. This means that they are crunchy on the outside but are super soft & gooey to bite into. We believe this is the way cookies should be!</p>
+                <img src="C:\Users\ammup\OneDrive\Desktop\coco cookies.avif" alt="Chocolate Cookie">
+                <img src="C:\Users\ammup\OneDrive\Desktop\coconut.jpg" alt="Coconut Crunch">
+                <a href="#" class="order-link">Order Now</a>
+            </div>
+
+            <div class="dessert-item">
+                <h3>SAY YES TO CAKEZZ</h3>
+                <p>A delightful cheesecake with a buttery crust, creamy filling, and fresh raspberry topping.</p>
+                <p>'A slice of heaven' is how our exquisite range of pastries is described - from the classic red velvet to chocolate truffle, from the fresh cream pineapple to baked brownie.</p>
+                <img src="C:\Users\ammup\OneDrive\Desktop\cakes.avif" alt="Raspberry Cheesecake">
+                <img src="C:\Users\ammup\OneDrive\Desktop\brownies.avif" alt="Delicious Brownie">
+                <a href="#" class="order-link">Order Now</a>
+            </div>
+
+            <div class="dessert-item">
+                <h3>ASSORTED MACARAONS!</h3>
+                <p>Light and airy French macarons in a variety of vibrant colors and delicious flavors.</p>
+                <img src="C:\Users\ammup\OneDrive\Desktop\fruity macarons.avif" alt="Fruity Macarons">
+                <img src="C:\Users\ammup\OneDrive\Desktop\dark coco macaron.jpg" alt="Dark Chocolate Macarons">
+                <a href="#" class="order-link">Order Now</a>
+            </div>
+
+            <div class="dessert-item">
+                <h3>GOODNESS OF DONUTS</h3>
+                <p>Fluffy n flavoured donuts topped with luscious buttercream frosting and sprinkles.</p>
+                <img src="C:\Users\ammup\OneDrive\Desktop\choco donuts.avif" alt="Vanilla fillings">
+                <img src="C:\Users\ammup\OneDrive\Desktop\moonfills.jpg" alt="Moon Fills">
+                <a href="#" class="order-link">Order Now</a>
+            </div>
+
+        </section>
+
+        <section id="gallery">
+            <h2>Our Sweet Moments Gallery</h2>
+            <div class="image-upload-section">
+                <input type="text" id="imageUrlInput" placeholder="Enter image URL">
+                <input type="text" id="imageCaptionInput" placeholder="Enter image caption">
+                <button id="addImageButton">Add Image to Gallery</button>
+            </div>
+            <div class="dessert-gallery-grid">
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or want to place a custom order? Reach out to us!</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sweet Delights. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
